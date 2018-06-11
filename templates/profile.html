@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>hello, {{ user.get_full_name }} </h1>
+<h2>Your 5 random friends:</h2>
+<ul>
+{% for friend in friends %}
+    <li><h6>{{ friend.first_name }} {{ friend.last_name }} </h6><img src="{{ friend.photo_50 }}"></li>
+{% endfor %}
+</ul>
+</body>
+</html>
