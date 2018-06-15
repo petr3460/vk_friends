@@ -1,3 +1,4 @@
 # vk_friends
-shows your friends in vk
+показывает имена и фото 5 ваших друзей во вконтакте
+используется python-social-auth и запросы к api вконтакте
 http://petrgalko.pythonanywhere.com
